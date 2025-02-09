@@ -16,7 +16,7 @@ function init() {
 
     // Load 3D Teddy Model
     const loader = new THREE.GLTFLoader();
-    loader.load('teddy_bear.glb', function(gltf) {
+    loader.load('https://modelviewer.dev/shared-assets/models/Panda.glb', function(gltf) {
         teddy = gltf.scene;
         teddy.scale.set(1.5, 1.5, 1.5);
         scene.add(teddy);
